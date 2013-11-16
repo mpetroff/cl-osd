@@ -2,7 +2,7 @@
 # Updated by Matthew Petroff
 
 CC=avr-gcc
-CFLAGS=-funsigned-char -funsigned-bitfields -Os -fno-split-wide-types -g0 -Wall -std=gnu99 -Wno-main -mmcu=atmega88
+CFLAGS=-funsigned-char -funsigned-bitfields -Os -fno-split-wide-types -g0 -Wall -std=gnu99 -Wno-main -mmcu=atmega88 -Wno-unused-function -Wno-unused-variable
 
 all: e-osd e-osd-gps g-osd
 
