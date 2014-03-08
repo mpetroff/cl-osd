@@ -157,7 +157,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.*
 //#define TIME_HOUR_ENABLED //Enable time to show and count hours.
 
 // Color system (Thanks to chatch15117)
-//#define COLORSYSTEM_NTSC
+#define COLORSYSTEM_NTSC
 
 //BUG fix for GOSDII GPS (gps unit sends km/h instead of knots)
 //#define GOSDII_GPS_SPEED_BUGFIX
